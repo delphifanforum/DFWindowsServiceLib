@@ -25,6 +25,7 @@ Click OK to add the assembly to your project.
 Once you have added the assembly to your project, you can start using the DFWindowsServiceLib classes in your Delphi code.
 Here is an example of how to use the DFWindowsServiceManager class to get the list of all installed Windows services:
 
+
 uses
   DFWindowsServiceLib;
 
@@ -45,6 +46,9 @@ begin
     serviceManager.Free;
   end;
 end;
+
+  
+  
 
   
 In this example, we create an instance of the DFWindowsServiceManager class and call the GetServices method to get an array of all installed Windows services. We then loop through the array and add each service name to a memo control.
